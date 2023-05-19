@@ -10,6 +10,8 @@ import java.util.List;
 public class DepartamentoDaoImpl extends AbstractDao<Departamento, Long> implements DepartamentoDao {
 
 
-
-
+    @Override
+    public Departamento findAll(Long id) {
+        return null;
+    }
 }
